@@ -3,7 +3,6 @@ import numpy as np
 import os
 import Hand_Detector as hd
 import math
-import time
 
 brush_thickness = 15
 eraser_thickness = 50
@@ -50,7 +49,7 @@ while True:
     frame = detector.findHands(frame,draw=False)
     lmlist = detector.findPosition(frame, draw=False)
 
-    # Tip of index and middle finger
+    # Tip of fingers
     if len(lmlist) != 0:
         x1,y1 = lmlist[8][1:] # index
         x2,y2 = lmlist[12][1:] # middle
@@ -93,9 +92,11 @@ while True:
                     header = overlay_list[2]
                     draw_color = (0,0,0)
             cv2.rectangle(frame, (x1,y1-25), (x2,y2+25), draw_color, cv2.FILLED)
-
+            
+        # Distance between thumb and index finger
         length = math.hypot(x4 - x3, y4 - y3)
-
+        
+        # Checking for click
         if 135<y2<216:
             if length < 45:    
                 if 541<x2<608:
@@ -124,7 +125,8 @@ while True:
 
         if eraser_thickness == 0:
             eraser_thickness += 5
-
+        
+        # Checking for click
         if 135<y2<198:
             if length < 45:
                 if 1263<x2<1403:
