@@ -100,31 +100,31 @@ while True:
         if 135<y2<216:
             if length < 45:    
                 if 541<x2<608:
-                    brush_thickness += 5
+                    brush_thickness += 2
                     brush_control = brush_size_increase
                     cv2.putText(frame,f'Brush Size: {brush_thickness}', (475,245),
                                 cv2.FONT_HERSHEY_COMPLEX,1,(0,0,0),2)
                 elif 608<x2<675:
-                    brush_thickness -= 5
+                    brush_thickness -= 2
                     brush_control = brush_size_decrease
                     cv2.putText(frame,f'Brush Size: {brush_thickness}', (475,245),
                                 cv2.FONT_HERSHEY_COMPLEX,1,(0,0,0),2)
                 elif 841<x2<908:
-                    eraser_thickness += 5
+                    eraser_thickness += 2
                     eraser_control = eraser_size_increase
                     cv2.putText(frame,f'Eraser Size: {eraser_thickness}', (775,245),
                                 cv2.FONT_HERSHEY_COMPLEX,1,(0,0,0),2)
                 elif 908<x2<975:
-                    eraser_thickness -= 5
+                    eraser_thickness -= 2
                     eraser_control = eraser_size_decrease
                     cv2.putText(frame,f'Eraser Size: {eraser_thickness}', (775,245),
                                 cv2.FONT_HERSHEY_COMPLEX,1,(0,0,0),2)
 
         if brush_thickness == 0:
-            brush_thickness += 5
+            brush_thickness += 2
 
         if eraser_thickness == 0:
-            eraser_thickness += 5
+            eraser_thickness += 2
         
         # Checking for click
         if 135<y2<198:
