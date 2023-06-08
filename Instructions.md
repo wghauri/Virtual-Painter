@@ -13,4 +13,4 @@
 * and tap the middle line on your index finger with your thumb to increase/decrease 
 * the size of the brush or the size of the eraser. 
 * Repeat the same gesture when hovering over the clear button to clear the screen
-![p](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Action.png)
+![Action Image](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Action.png)
