@@ -1,5 +1,5 @@
 # Drawing Mode
-* Use your index finger to draw on the screen
+⋅⋅*  Use your index finger to draw on the screen
 
 # Selection Mode
 * Use your index and middle finger to go into selection mode
