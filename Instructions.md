@@ -11,9 +11,8 @@
 ![Selection Mode Image](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Selection_Mode.png)
 
 # Action
-* If your fingers are in the selection mode position, hover over the + or - icons 
-* and tap the middle line on your index finger with your thumb to increase/decrease 
-* the size of the brush or the size of the eraser. 
+* Put your fingers into the selection mode position and hover your fingers over the + or - icons
+* Tap the middle line on your index finger with your thumb to increase/decrease the size of the brush or the size of the eraser
 * Repeat the same gesture when hovering over the clear button to clear the screen
 ---
 ![Action Image](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Action.png)
