@@ -1,7 +1,7 @@
 # Drawing Mode
 * Use your index finger to draw on the screen
 
-![Drawing Mode Image](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Drawing_Mode.png)
+* ![Drawing Mode Image](https://github.com/wghauri/Virtual-Painter/blob/main/Instruction%20Images/Drawing_Mode.png)
 
 # Selection Mode
 * Use your index and middle finger to go into selection mode
